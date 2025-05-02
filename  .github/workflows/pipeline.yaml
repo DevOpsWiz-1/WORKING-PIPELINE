@@ -25,8 +25,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t  myapp:v1.0 .
+          docker build -t  website:v1.0 .
       
       - name: Push Docker image
         run: |
-          docker push devopschima11/myapp:v1.0
+          docker push devopschima11/website:v1.0
